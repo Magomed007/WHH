@@ -11,17 +11,27 @@
 .help-link,
 .header-link,
 .mission-link,
-.footer-link {
+.footer-link,
+.accordion-header img {
     -webkit-tap-highlight-color: transparent;
     user-select: none;
     -webkit-user-select: none;
     outline: none;
 }
 
-.help-link:hover,
-.header-link:hover,
-.mission-link:hover,
-.footer-link:hover {
+@media (hover: hover) {
+    .help-link:hover,
+    .header-link:hover,
+    .mission-link:hover,
+    .footer-link:hover {
+        opacity: 0.8;
+    }
+}
+
+.help-link:active,
+.header-link:active,
+.mission-link:active,
+.footer-link:active {
     opacity: 0.8;
 }
 
