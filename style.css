@@ -131,7 +131,6 @@ body {
     color: #FFFFFF;
 
     -webkit-text-stroke: 2px #000000;
-    text-stroke: 2px #000000;
     paint-order: stroke fill;
 }
 
@@ -148,7 +147,6 @@ body {
     opacity: 0.8;
 
     -webkit-text-stroke: 2px #000000;
-    text-stroke: 2px #000000;
     paint-order: stroke fill;
 }
 
@@ -399,7 +397,6 @@ body {
     gap: 2rem;
 
     -webkit-text-stroke: 2px #000000;
-    text-stroke: 2px #000000;
     paint-order: stroke fill;
 }
 
