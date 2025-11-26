@@ -130,18 +130,16 @@ body {
     line-height: 1.14;
     color: #FFFFFF;
 
-    text-shadow: 
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
+    -webkit-text-stroke: 2px #000000;
+    text-stroke: 2px #000000;
+    paint-order: stroke fill;
 }
 
 .header-text {
     position: absolute;
     max-width: 37.8rem;
     height: auto;
-    right: 0;
+    right: 1rem;
     top: 35%;
     font-weight: 275;
     font-size: 2rem;
@@ -149,11 +147,9 @@ body {
     color: #FFFFFF;
     opacity: 0.8;
 
-    text-shadow: 
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
+    -webkit-text-stroke: 2px #000000;
+    text-stroke: 2px #000000;
+    paint-order: stroke fill;
 }
 
 .header-link {
@@ -402,11 +398,9 @@ body {
     text-align: center;
     gap: 2rem;
 
-    text-shadow: 
-        -0.5px -0.5px 0 #000,
-        0.5px -0.5px 0 #000,
-        -0.5px 0.5px 0 #000,
-        0.5px 0.5px 0 #000;
+    -webkit-text-stroke: 2px #000000;
+    text-stroke: 2px #000000;
+    paint-order: stroke fill;
 }
 
 .footer-title {
