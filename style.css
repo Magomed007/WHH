@@ -12,7 +12,7 @@
 .header-link,
 .mission-link,
 .footer-link,
-.accordion-header img {
+.accordion-header {
     -webkit-tap-highlight-color: transparent;
     user-select: none;
     -webkit-user-select: none;
@@ -114,6 +114,7 @@ body {
     background-image: url(images/header_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 5rem;
     position: relative;
 }
@@ -128,6 +129,12 @@ body {
     font-size: 10rem;
     line-height: 1.14;
     color: #FFFFFF;
+
+    text-shadow: 
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
 .header-text {
@@ -140,7 +147,13 @@ body {
     font-size: 2rem;
     line-height: 1.15;
     color: #FFFFFF;
-    opacity: 0.75;
+    opacity: 0.8;
+
+    text-shadow: 
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
 .header-link {
@@ -376,9 +389,11 @@ body {
     width: 100%;
     height: 69.6rem;
     margin-bottom: 12.2rem;
+    padding: 1.5rem;
     background-image: url(images/footer_background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 5rem;
     display: flex;
     flex-direction: column;
@@ -386,6 +401,12 @@ body {
     align-items: center;
     text-align: center;
     gap: 2rem;
+
+    text-shadow: 
+        -0.5px -0.5px 0 #000,
+        0.5px -0.5px 0 #000,
+        -0.5px 0.5px 0 #000,
+        0.5px 0.5px 0 #000;
 }
 
 .footer-title {
@@ -755,10 +776,15 @@ body {
     .footer-title {
         font-size: 3rem;
     }
+
+    .footer-text {
+        font-size: 1.6rem;
+    }
     
     .footer-link {
         width: 30rem;
         font-size: 1.8rem;
+        height: auto;
     }
     
     .footer-contacts {
